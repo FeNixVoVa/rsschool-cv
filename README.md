@@ -1,2 +1,1 @@
-# rsschool-cv
-Repo for RSSchool
+https://FeNixVoVa.github.io/rsschool-cv/cv
