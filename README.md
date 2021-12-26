@@ -1,1 +1,1 @@
-https://github.com/FeNixVoVa/rsschool-cv/CV
+https://FeNixVoVa.github.io/rsschool-cv/cv
