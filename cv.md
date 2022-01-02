@@ -31,6 +31,6 @@ if ((inputNumber == null) || (inputNumber == undefined)) {
   alert(simpleNumbersInResult);
 }
 ```
-6. Experience
+6. 10 years of experience in the energy sector.
 7. Education
 8. English
