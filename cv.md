@@ -32,5 +32,5 @@ if ((inputNumber == null) || (inputNumber == undefined)) {
 }
 ```
 6. 10 years of experience in the energy sector.
-7. Education
+7. Graduated from a master's degree in relay protection and automation
 8. English
