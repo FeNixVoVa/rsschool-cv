@@ -1,0 +1,8 @@
+1. First name and Last name
+2. Contacts
+3. Objectives
+4. Skills
+5. Code examples
+6. Experience
+7. Education
+8. English
