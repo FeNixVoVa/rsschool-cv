@@ -1,4 +1,5 @@
-1. First name and Last name
+1. First name: Vladimir  
+Last name: Nazarov
 2. Contacts
 3. Objectives
 4. Skills
