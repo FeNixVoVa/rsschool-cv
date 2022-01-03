@@ -85,3 +85,39 @@ html {
       width: 100%;
    }
 }
+
+.footer-container {
+   background-color: #025508;
+   font-family: "Oswald", sans-serif;
+   font-size: 20px;
+   color: #B4FEBB;
+}
+
+.footer-list {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0;
+   margin: 0;
+   list-style: none;
+}
+
+.footer-item {
+   padding: 0 20px;
+   line-height: 50px;
+}
+
+.footer-link {
+   text-decoration: none;
+   color: #B4FEBB;
+   transition: color 0.3s;
+}
+
+.footer-link:hover {
+   color: #FF6B6E;
+}
+
+.footer-image {
+   width: 121px;
+   height: 45px;
+}
