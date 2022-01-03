@@ -13,3 +13,7 @@
    font-style: italic;
    src: url("../assets/fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf");
 }
+
+* {
+   box-sizing: border-box;
+}
