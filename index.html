@@ -52,8 +52,33 @@
                 <p>I start learning JavaScript practically from scratch. All I have is knowledge from the school course and desire! Add to this a little more striving and diligence and we will get a quality specialist at the end!</p>
             </section>
             <section class="section" id="code">
-                <h2></h2>
-                <p></p>
+                <h2 class="code-title">Code</h2>
+                <p>Code examples: <a href="https://codepen.io/fenixvova/pen/JjrdOXj">https://codepen.io/fenixvova/pen/JjrdOXj</a></p>
+                <pre>
+<code>let inputNumber = prompt('Введите до скольки перечислять простые числа','2');
+if ((inputNumber == null) || (inputNumber == undefined)) {
+  alert ('Число не введено');
+} else if (inputNumber < 2) {
+  alert('Принимаются числа больше 1');
+} else if (inputNumber == 2) {
+  alert('2');
+} else {
+  let simpleNumbersInResult = 2;
+  let numberDivider;
+  for (let i = 3; i <= inputNumber; i++) {
+    numberDivider = false;
+    for (let j = 2; j < Math.sqrt(i); j++) {
+      if (i % j == 0) {
+        numberDivider = true;
+      }
+    }
+    if (!(numberDivider)) {
+      simpleNumbersInResult = (simpleNumbersInResult + ', ' + i);
+    }
+  } 
+  alert(simpleNumbersInResult);
+}</code>
+                </pre>
             </section>
             <section class="section" id="courses">
                 <h2></h2>
