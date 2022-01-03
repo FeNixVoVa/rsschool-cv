@@ -1,0 +1,15 @@
+@font-face {
+   font-family: 'Oswald';
+   src: url("../assets/fonts/Oswald/Oswald-VariableFont_wght.ttf");
+  }
+
+@font-face {
+   font-family: 'PlayfairDisplay';
+   src: url("../assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+@font-face {
+   font-family: 'PlayfairDisplay';
+   font-style: italic;
+   src: url("../assets/fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf");
+}
