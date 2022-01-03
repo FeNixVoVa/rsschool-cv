@@ -44,8 +44,29 @@ body {
    display: flex;
    justify-content: flex-end;
    align-items: center;
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   font-family: "Oswald", sans-serif;
+   font-size: 20px;
 }
 
 html {
    scroll-behavior: smooth;
+}
+
+.nav-link {
+   padding: 0 20px;
+   line-height: 50px;
+   text-decoration: none;
+   color: #B4FEBB;
+   transition: color 0.3s;
+}
+
+.nav-link:hover {
+   color: #FF6B6E;
+}
+
+.nav {
+   background-color: #025508;
 }
