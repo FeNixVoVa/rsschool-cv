@@ -17,3 +17,13 @@
 * {
    box-sizing: border-box;
 }
+
+body,
+header,
+main,
+footer,
+.container,
+.section {
+   margin: 0;
+   padding: 0;
+}
