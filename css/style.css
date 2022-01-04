@@ -78,6 +78,10 @@ html {
 
 .section {
    width: 50%;
+   padding: 20px;
+   font-family: "PlayfairDisplay";
+   letter-spacing: 3px;
+   font-weight: 600;
 }
 
 @media (max-width: 768px) {
