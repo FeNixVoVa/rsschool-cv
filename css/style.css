@@ -172,3 +172,23 @@ html {
    align-items: center;
    justify-content: center;
 }
+
+.contacts-list {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+}
+
+.contacts-icon {
+   width: 16px;
+}
+
+.contacts-link {
+   text-decoration: none;
+   color: #3729FF;
+   transition: color 0.3s;
+}
+
+.contacts-link:hover {
+   color: #B60000;
+}
