@@ -173,7 +173,8 @@ html {
    justify-content: center;
 }
 
-.contacts-list {
+.contacts-list,
+.skills-list {
    padding: 0;
    margin: 0;
    list-style: none;
@@ -191,4 +192,8 @@ html {
 
 .contacts-link:hover {
    color: #B60000;
+}
+
+.skills-icon {
+   width: 30px;
 }
