@@ -184,16 +184,45 @@ html {
    width: 16px;
 }
 
-.contacts-link {
+.contacts-link,
+.code-link {
    text-decoration: none;
    color: #3729FF;
    transition: color 0.3s;
 }
 
-.contacts-link:hover {
+.contacts-link:hover,
+.code-link:hover,
+.code-hide-label:hover {
    color: #B60000;
 }
 
 .skills-icon {
    width: 30px;
+}
+
+.code-hide {
+   display: none;
+}
+
+.code-hide ~ .code {
+   display: none;
+}
+
+.code-hide-label {
+   padding: 0;
+   color: #3729FF;
+   transition: color 0.3s;
+   cursor: pointer;
+   display: inline-block;
+}
+
+.code-hide:checked ~ .code {
+   display: block;
+   background: snow;
+   padding: 10px;
+}
+
+.code {
+   letter-spacing: normal;
 }
