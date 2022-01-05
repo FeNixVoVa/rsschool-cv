@@ -185,7 +185,8 @@ html {
 }
 
 .contacts-link,
-.code-link {
+.code-link,
+.projects-link {
    text-decoration: none;
    color: #3729FF;
    transition: color 0.3s;
@@ -193,7 +194,8 @@ html {
 
 .contacts-link:hover,
 .code-link:hover,
-.code-hide-label:hover {
+.code-hide-label:hover,
+.projects-link:hover {
    color: #B60000;
 }
 
