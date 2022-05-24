@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <div class="image-wrapper">
+                    <img src="assets/img/photo.JPG" alt="photo" class="profile-photo">
+                </div>
+                <div class="title-wrapper">
+                    <h1 class="profile-title">
+                        Vladimir <br>
+                        Nazarov
+                    </h1>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="contacts-title">Contacts</h2>
+                <ul class="contacts-list">
+                    <li class="contacts-item">
+                        <a href="https://goo.gl/maps/8vfVXmkXkgAsam4g8" class="contacts-link">
+                            <img src="assets/svg/iconmonstr-location-1.svg" alt="Location icon" class="contacts-icon">
+                            Russia, Saint Petersburg
+                        </a>
+                    </li>
+                    <li class="contacts-item">
+                        <img src="assets/svg/iconmonstr-phone-1.svg" alt="Phone icon" class="contacts-icon">
+                        Phone number: +7-952-283-99-14
+                        <a href="tel:+7-952-283-99-14" class="contacts-link">
+                            Call
+                        </a>
+                    </li>
+                    <li class="contacts-item">
+                        <img src="assets/svg/iconmonstr-email-1.svg" alt="E-mail icon" class="contacts-icon">
+                        E-mail:
+                        <a href="mailto:FeNixVoVa@gmail.com" class="contacts-link">
+                            FeNixVoVa@gmail.com
+                        </a>
+                    </li>
+                    <li class="contacts-item">
+                        <img src="assets/svg/iconmonstr-telegram-1.svg" alt="Telegram icon" class="contacts-icon">
+                        Telegram:
+                        <a href="https://t.me/VladimirNazarov" class="contacts-link">
+                            @VladimirNazarov
+                        </a>
+                    </li>
+                    <li class="contacts-item">
+                        <img src="assets/svg/iconmonstr-discord-1.svg" alt="Discord icon" class="contacts-icon">
+                        Discord: FeNix(Вова)#8448
+                    </li>
+                    <li class="contacts-item">
+                        <img src="assets/svg/iconmonstr-github-1.svg" alt="GitHub icon" class="contacts-icon">
+                        GitHub:
+                        <a href="https://github.com/FeNixVoVa" class="contacts-link">
+                            FeNixVoVa
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="summary-title">Summary</h2>
+                <p>
+                    I want to get high-quality knowledge of JavaScript FrontEnd development in order to find a job in
+                    the future and start making money on it.
+                </p>
+                <p>
+                    I start learning JavaScript practically from scratch. All I have is knowledge from the school course
+                    and desire! Add to this a little more striving and diligence and we will get a quality specialist at
+                    the end!
+                </p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="skills-title">Skills</h2>
+                <ul class="skills-list">
+                    <li class="skills-item">
+                        <img src="assets/svg/html5.svg" alt="Html icon" class="skills-icon">
+                        Html 5 - beginner
+                    </li>
+                    <li class="skills-item">
+                        <img src="assets/svg/css3.svg" alt="Css icon" class="skills-icon">
+                        Css 3 - beginner
+                    </li>
+                    <li class="skills-item">
+                        <img src="assets/svg/java-script.svg" alt="JavaScript icon" class="skills-icon">
+                        JavaScript - start learning
+                    </li>
+                    <li class="skills-item">
+                        <img src="assets/svg/github.svg" alt="GitHub icon" class="skills-icon">
+                        Git+GitHub - beginner
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="code-title">Code</h2>
+                <p>
+                    Code examples:
+                    <a href="https://codepen.io/fenixvova/pen/JjrdOXj" class="code-link">
+                        CodePen
+                    </a>
+                </p>
+                <div>
+                    <input type="checkbox" id="code-hide-checkbox" class="code-hide">
+                    <label for="code-hide-checkbox" class="code-hide-label">
+                        Show
+                    </label>
+                    <pre class="code">
+<code>let inputNumber = prompt('Введите до скольки перечислять простые числа','2');
+if ((inputNumber == null) || (inputNumber == undefined)) {
+  alert ('Число не введено');
+} else if (inputNumber &lt; 2) {
+  alert('Принимаются числа больше 1');
+} else if (inputNumber == 2) {
+  alert('2');
+} else {
+  let simpleNumbersInResult = 2;
+  let numberDivider;
+  for (let i = 3; i &lt;= inputNumber; i++) {
+    numberDivider = false;
+    for (let j = 2; j &lt; Math.sqrt(i); j++) {
+      if (i % j == 0) {
+        numberDivider = true;
+      }
+    }
+    if (!(numberDivider)) {
+      simpleNumbersInResult = (simpleNumbersInResult + ', ' + i);
+    }
+  } 
+  alert(simpleNumbersInResult);
+}</code>
+                    </pre>
+                </div>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="courses-title">Courses</h2>
+                <p>JS/Frontend Stage 0 - keep learning...</p>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="projects-title">Projects</h2>
+                <p>
+                    <a href="https://rolling-scopes-school.github.io/fenixvova-JSFEPRESCHOOL/portfolio/"
+                        class="projects-link">
+                        Portfolio
+                    </a>
+                </p>
+                <p>
+                    <a href="https://rolling-scopes-school.github.io/fenixvova-JSFE2022Q1/shelter/pages/main/"
+                        class="projects-link">
+                        Shelter
+                    </a>
+                </p>
+                <p>
+                    <a href="https://github.com/FeNixVoVa/rsschool-cv" class="projects-link">
+                        This CV
+                    </a>
+                </p>
+            </section>
+            <section class="section" id="education">
+                <h2 class="education-title">Education</h2>
+                <p>Graduated from a master's degree in relay protection and automation.</p>
+            </section>
+            <section class="section" id="english">
+                <h2 class="english-title">English</h2>
+                <p>A2 - Elementary</p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <ul class="footer-list">
+                <li class="footer-item">2022</li>
+                <li class="footer-item"><a href="https://github.com/FeNixVoVa" class="footer-link">FeNixVoVa</a></li>
+                <li class="footer-item"><a href="https://rs.school/js/" class="footer-link"><img
+                            src="assets/svg/rs_school_js.svg" alt="RSSchool logo" class="footer-image"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
